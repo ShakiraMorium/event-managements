@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Event List</title>
+</head>
+<body>
+  <h1>Events</h1>
+  <ul>
+    {% for event in events %}
+      <li>
+        <h2>{{ event.title }}</h2>
+        <p><strong>Category:</strong> {{ event.category.name }}</p>
+        <p><strong>Description:</strong> {{ event.description }}</p>
+        <p><strong>Start:</strong> {{ event.start_datetime }}</p>
+        <p><strong>End:</strong> {{ event.end_datetime }}</p>
+        <p><strong>Participants ({{ event.participants.count }}):</strong></p>
+        <ul>
+          {% for participant in event.participants.all %}
+            <li>{{ participant.full_name }} ({{ participant.email }})</li>
+          {% endfor %}
+        </ul>
+        {% if event.image %}
+          <img src="{{ event.image.url }}" alt="{{ event.title }}" width="200" />
+        {% endif %}
+      </li>
+    {% empty %}
+      <li>No events found.</li>
+    {% endfor %}
+  </ul>
+</body>
+</html>

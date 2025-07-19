@@ -16,13 +16,27 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path,include
-from events.views import home_view, contact_view, dashboard_view
+from events.views import home_view, dashboard_view
+from django.conf import settings
+from events import views
+from django.conf.urls.static import static
+from events.views import EventDetailView   
+from users.views import login_view,signup_view
 
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('',home_view, name='home'),
-    path('contact/', contact_view, name='contact'),
+    path('all_event/', views.all_event_view, name='all_event'),
     path('dashboard/', dashboard_view, name='dashboard'),
-    # path('event/', include('events.urls').urls),
+    # path('', include('events.urls')),
+    path('users/', include('users.urls')),
+    path('events/<int:pk>/', EventDetailView.as_view(), name='event_detail'),
+    path('accounts/', include('django.contrib.auth.urls')), 
+    path('login/', login_view, name='login'),
+    path('signup/', signup_view, name='signup'),
 ]
+ 
+
+if settings.DEBUG:
+    urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

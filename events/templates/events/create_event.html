@@ -1,0 +1,17 @@
+{% extends 'home.html' %}
+{% block content %}
+  <h2 class="text-xl font-bold mb-4">Create New Event</h2>
+  <form method="POST">
+    {% csrf_token %}
+    <input type="text" name="title" placeholder="Title" class="input input-bordered mb-2" required><br>
+    <textarea name="description" placeholder="Description" class="textarea textarea-bordered mb-2"></textarea><br>
+    <input type="date" name="date" class="input input-bordered mb-2" required><br>
+    <input type="text" name="location" placeholder="Location" class="input input-bordered mb-2" required><br>
+    <select name="category" class="select select-bordered mb-4">
+      {% for cat in categories %}
+        <option value="{{ cat.id }}">{{ cat.name }}</option>
+      {% endfor %}
+    </select><br>
+    <button class="btn btn-primary">Create Event</button>
+  </form>
+{% endblock %}
