@@ -11,6 +11,8 @@ https://docs.djangoproject.com/en/5.2/ref/settings/
 """
 import os
 from pathlib import Path
+from decouple import config , Csv
+
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -57,7 +59,7 @@ TAILWIND_APP_NAME = 'theme'
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
-LOGIN_URL = '/users/login/'   
+LOGIN_URL = 'login'   
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -104,13 +106,21 @@ WSGI_APPLICATION = 'event_management.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'event_management',  
-        'USER': 'postgres',
-        'PASSWORD': '#postgre1234',
-        'HOST': 'localhost',
-        'PORT': '5432',
+        'NAME': config('event_management'),  
+        'USER': config('postgres'),
+        'PASSWORD': config('#postgre1234'),
+        'HOST': config('localhost'),
+        'PORT': config('5432'),
     }
 }
+
+# Email
+EMAIL_BACKEND = config('EMAIL_BACKEND')
+EMAIL_HOST = config('EMAIL_HOST')
+EMAIL_PORT = config('EMAIL_PORT', cast=int)
+EMAIL_USE_TLS = config('EMAIL_USE_TLS', cast=bool)
+EMAIL_HOST_USER = config('EMAIL_HOST_USER')
+EMAIL_HOST_PASSWORD = config('EMAIL_HOST_PASSWORD')
 
 
 # Password validation

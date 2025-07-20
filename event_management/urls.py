@@ -29,7 +29,7 @@ urlpatterns = [
     path('',home_view, name='home'),
     path('all_event/', views.all_event_view, name='all_event'),
     path('dashboard/', dashboard_view, name='dashboard'),
-    # path('', include('events.urls')),
+    path('', include('events.urls')),
     path('users/', include('users.urls')),
     path('events/<int:pk>/', EventDetailView.as_view(), name='event_detail'),
     path('accounts/', include('django.contrib.auth.urls')), 
