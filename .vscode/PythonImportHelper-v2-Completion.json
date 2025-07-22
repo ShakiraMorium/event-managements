@@ -9,6 +9,38 @@
         "documentation": {}
     },
     {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
         "label": "migrations",
         "importPath": "django.db",
         "description": "django.db",
@@ -42,6 +74,22 @@
     },
     {
         "label": "DatabaseError",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
         "importPath": "django.db",
         "description": "django.db",
         "isExtraImport": true,
@@ -110,22 +158,6 @@
         "description": "django.utils.text",
         "isExtraImport": true,
         "detail": "django.utils.text",
-        "documentation": {}
-    },
-    {
-        "label": "settings",
-        "importPath": "django.conf",
-        "description": "django.conf",
-        "isExtraImport": true,
-        "detail": "django.conf",
-        "documentation": {}
-    },
-    {
-        "label": "settings",
-        "importPath": "django.conf",
-        "description": "django.conf",
-        "isExtraImport": true,
-        "detail": "django.conf",
         "documentation": {}
     },
     {
@@ -217,31 +249,15 @@
         "documentation": {}
     },
     {
-        "label": "HttpResponse",
-        "importPath": "django.http",
-        "description": "django.http",
-        "isExtraImport": true,
-        "detail": "django.http",
-        "documentation": {}
-    },
-    {
-        "label": "HttpResponse",
-        "importPath": "django.http",
-        "description": "django.http",
-        "isExtraImport": true,
-        "detail": "django.http",
-        "documentation": {}
-    },
-    {
-        "label": "JsonResponse",
-        "importPath": "django.http",
-        "description": "django.http",
-        "isExtraImport": true,
-        "detail": "django.http",
-        "documentation": {}
-    },
-    {
         "label": "login_required",
+        "importPath": "django.contrib.auth.decorators",
+        "description": "django.contrib.auth.decorators",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "user_passes_test",
         "importPath": "django.contrib.auth.decorators",
         "description": "django.contrib.auth.decorators",
         "isExtraImport": true,
@@ -257,27 +273,11 @@
         "documentation": {}
     },
     {
-        "label": "UserCreationForm",
-        "importPath": "django.contrib.auth.forms",
-        "description": "django.contrib.auth.forms",
+        "label": "organizer_required",
+        "importPath": "users.utils",
+        "description": "users.utils",
         "isExtraImport": true,
-        "detail": "django.contrib.auth.forms",
-        "documentation": {}
-    },
-    {
-        "label": "UserCreationForm",
-        "importPath": "django.contrib.auth.forms",
-        "description": "django.contrib.auth.forms",
-        "isExtraImport": true,
-        "detail": "django.contrib.auth.forms",
-        "documentation": {}
-    },
-    {
-        "label": "UserCreationForm",
-        "importPath": "django.contrib.auth.forms",
-        "description": "django.contrib.auth.forms",
-        "isExtraImport": true,
-        "detail": "django.contrib.auth.forms",
+        "detail": "users.utils",
         "documentation": {}
     },
     {
@@ -311,6 +311,31 @@
         "description": "pathlib",
         "isExtraImport": true,
         "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "config",
+        "importPath": "decouple",
+        "description": "decouple",
+        "isExtraImport": true,
+        "detail": "decouple",
+        "documentation": {}
+    },
+    {
+        "label": "Csv",
+        "importPath": "decouple",
+        "description": "decouple",
+        "isExtraImport": true,
+        "detail": "decouple",
+        "documentation": {}
+    },
+    {
+        "label": "dj_database_url",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "dj_database_url",
+        "description": "dj_database_url",
+        "detail": "dj_database_url",
         "documentation": {}
     },
     {
@@ -359,6 +384,30 @@
         "description": "users.views",
         "isExtraImport": true,
         "detail": "users.views",
+        "documentation": {}
+    },
+    {
+        "label": "signup_view",
+        "importPath": "users.views",
+        "description": "users.views",
+        "isExtraImport": true,
+        "detail": "users.views",
+        "documentation": {}
+    },
+    {
+        "label": "HttpResponse",
+        "importPath": "django.http",
+        "description": "django.http",
+        "isExtraImport": true,
+        "detail": "django.http",
+        "documentation": {}
+    },
+    {
+        "label": "JsonResponse",
+        "importPath": "django.http",
+        "description": "django.http",
+        "isExtraImport": true,
+        "detail": "django.http",
         "documentation": {}
     },
     {
@@ -444,6 +493,97 @@
         "documentation": {}
     },
     {
+        "label": "django.contrib.auth.models",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "AbstractUser",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "django.contrib.auth.validators",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.contrib.auth.validators",
+        "description": "django.contrib.auth.validators",
+        "detail": "django.contrib.auth.validators",
+        "documentation": {}
+    },
+    {
+        "label": "django.utils.timezone",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.utils.timezone",
+        "description": "django.utils.timezone",
+        "detail": "django.utils.timezone",
+        "documentation": {}
+    },
+    {
+        "label": "forms",
+        "importPath": "django",
+        "description": "django",
+        "isExtraImport": true,
+        "detail": "django",
+        "documentation": {}
+    },
+    {
+        "label": "UserCreationForm",
+        "importPath": "django.contrib.auth.forms",
+        "description": "django.contrib.auth.forms",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.forms",
+        "documentation": {}
+    },
+    {
+        "label": "get_user_model",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "authenticate",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "login",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "logout",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "get_user_model",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
         "label": "post_save",
         "importPath": "django.db.models.signals",
         "description": "django.db.models.signals",
@@ -476,78 +616,6 @@
         "documentation": {}
     },
     {
-        "label": "user_passes_test",
-        "importPath": "django.contrib.auth.utils",
-        "description": "django.contrib.auth.utils",
-        "isExtraImport": true,
-        "detail": "django.contrib.auth.utils",
-        "documentation": {}
-    },
-    {
-        "label": "signals",
-        "importPath": "users",
-        "description": "users",
-        "isExtraImport": true,
-        "detail": "users",
-        "documentation": {}
-    },
-    {
-        "label": "forms",
-        "importPath": "django",
-        "description": "django",
-        "isExtraImport": true,
-        "detail": "django",
-        "documentation": {}
-    },
-    {
-        "label": "User",
-        "importPath": "django.contrib.auth.models",
-        "description": "django.contrib.auth.models",
-        "isExtraImport": true,
-        "detail": "django.contrib.auth.models",
-        "documentation": {}
-    },
-    {
-        "label": "AbstractUser",
-        "importPath": "django.contrib.auth.models",
-        "description": "django.contrib.auth.models",
-        "isExtraImport": true,
-        "detail": "django.contrib.auth.models",
-        "documentation": {}
-    },
-    {
-        "label": "User",
-        "importPath": "django.contrib.auth.models",
-        "description": "django.contrib.auth.models",
-        "isExtraImport": true,
-        "detail": "django.contrib.auth.models",
-        "documentation": {}
-    },
-    {
-        "label": "authenticate",
-        "importPath": "django.contrib.auth",
-        "description": "django.contrib.auth",
-        "isExtraImport": true,
-        "detail": "django.contrib.auth",
-        "documentation": {}
-    },
-    {
-        "label": "login",
-        "importPath": "django.contrib.auth",
-        "description": "django.contrib.auth",
-        "isExtraImport": true,
-        "detail": "django.contrib.auth",
-        "documentation": {}
-    },
-    {
-        "label": "logout",
-        "importPath": "django.contrib.auth",
-        "description": "django.contrib.auth",
-        "isExtraImport": true,
-        "detail": "django.contrib.auth",
-        "documentation": {}
-    },
-    {
         "label": "get_current_site",
         "importPath": "django.contrib.sites.shortcuts",
         "description": "django.contrib.sites.shortcuts",
@@ -564,6 +632,14 @@
         "documentation": {}
     },
     {
+        "label": "force_str",
+        "importPath": "django.utils.encoding",
+        "description": "django.utils.encoding",
+        "isExtraImport": true,
+        "detail": "django.utils.encoding",
+        "documentation": {}
+    },
+    {
         "label": "render_to_string",
         "importPath": "django.template.loader",
         "description": "django.template.loader",
@@ -573,6 +649,14 @@
     },
     {
         "label": "urlsafe_base64_encode",
+        "importPath": "django.utils.http",
+        "description": "django.utils.http",
+        "isExtraImport": true,
+        "detail": "django.utils.http",
+        "documentation": {}
+    },
+    {
+        "label": "urlsafe_base64_decode",
         "importPath": "django.utils.http",
         "description": "django.utils.http",
         "isExtraImport": true,
@@ -601,7 +685,7 @@
         "kind": 6,
         "importPath": "events.migrations.0001_initial",
         "description": "events.migrations.0001_initial",
-        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Category',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('name', models.CharField(max_length=100, unique=True)),",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n        migrations.swappable_dependency(settings.AUTH_USER_MODEL),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Category',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),",
         "detail": "events.migrations.0001_initial",
         "documentation": {}
     },
@@ -619,7 +703,7 @@
         "kind": 6,
         "importPath": "events.models",
         "description": "events.models",
-        "peekOfCode": "class RSVP(models.Model):\n    user = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)\n    event = models.ForeignKey(Event, on_delete=models.CASCADE)\n    status = models.CharField(max_length=10, choices=(('yes', 'Yes'), ('no', 'No')), default='yes')\n    created_at = models.DateTimeField(auto_now_add=True)\nclass Category(models.Model):\n    name = models.CharField(max_length=100, unique=True)\n    slug = models.SlugField(max_length=120, unique=True, blank=True)\n    class Meta:\n        verbose_name_plural = \"Categories\"",
+        "peekOfCode": "class RSVP(models.Model):\n    user = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)\n    event = models.ForeignKey('Event', on_delete=models.CASCADE)  \n    status = models.CharField(max_length=10, choices=(('yes', 'Yes'), ('no', 'No')), default='yes')\n    created_at = models.DateTimeField(auto_now_add=True)\n    def __str__(self):\n        return f\"{self.user.username} RSVP'd {self.status} for {self.event.title}\"\nclass Category(models.Model):\n    name = models.CharField(max_length=100, unique=True)\n    slug = models.SlugField(max_length=120, unique=True, blank=True)",
         "detail": "events.models",
         "documentation": {}
     },
@@ -646,7 +730,7 @@
         "kind": 6,
         "importPath": "events.models",
         "description": "events.models",
-        "peekOfCode": "class Event(models.Model):\n    title = models.CharField(max_length=200)\n    description = models.TextField(blank=True)\n    image = models.ImageField(upload_to='event_images/', blank=True, null=True)\n    category = models.ForeignKey(Category,related_name=\"events\", on_delete=models.CASCADE,)\n    start_datetime = models.DateTimeField()\n    end_datetime = models.DateTimeField()\n    participants = models.ManyToManyField( Participant,related_name=\"events\",blank=True,)\n    created_at = models.DateTimeField(auto_now_add=True)\n    updated_at = models.DateTimeField(auto_now=True)",
+        "peekOfCode": "class Event(models.Model):\n    title = models.CharField(max_length=200)\n    description = models.TextField(blank=True)\n    image = models.ImageField(upload_to='event_images/', blank=True, null=True)\n    category = models.ForeignKey(Category,related_name=\"events\", on_delete=models.CASCADE,)\n    organizer = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE) \n    start_datetime = models.DateTimeField()\n    end_datetime = models.DateTimeField()\n    participants = models.ManyToManyField( Participant,related_name=\"events\",blank=True,)\n    created_at = models.DateTimeField(auto_now_add=True)",
         "detail": "events.models",
         "documentation": {}
     },
@@ -655,7 +739,7 @@
         "kind": 5,
         "importPath": "events.urls",
         "description": "events.urls",
-        "peekOfCode": "urlpatterns = [\n    path('', views.home_view, name='home'),\n    path('list/',  event_list, name='event_list'),\n    path('dashboard/', views.dashboard_view, name='dashboard'),\n    path('events/', event_list, name='event_list'),\n    path('all_event/', views.all_event_view, name='all_event'),\n    path('signup/', views.signup_view, name='signup'),\n]",
+        "peekOfCode": "urlpatterns = [\n    path('', views.home_view, name='home'),\n    path('dashboard/', views.dashboard_view, name='dashboard'),\n    path('all_event/', views.all_event_view, name='all_event'),\n    path('test/', views.test_view, name='test'),\n]",
         "detail": "events.urls",
         "documentation": {}
     },
@@ -664,7 +748,16 @@
         "kind": 6,
         "importPath": "events.views",
         "description": "events.views",
-        "peekOfCode": "class EventDetailView(DetailView):\n    model = Event\n    template_name = 'events/event_detail.html'\n    context_object_name = 'event'\ndef event_list(request):\n    events = Event.objects.select_related('category').prefetch_related('participants').all()\n    return render(request, 'events/event_list.html', {'events': events})\ndef event_detail(request, pk):\n    event = get_object_or_404(Event, pk=pk)\n    return render(request, 'events/event_detail.html', {'event': event})",
+        "peekOfCode": "class EventDetailView(DetailView):\n    model = Event\n    template_name = 'events/event_detail.html'\n    context_object_name = 'event'\n# Event list view with related objects prefetched\ndef event_list(request):\n    events = Event.objects.select_related('category').prefetch_related('participants').all()\n    return render(request, 'events/event_list.html', {'events': events})\n# Organizer-only event creation view\n@organizer_required",
+        "detail": "events.views",
+        "documentation": {}
+    },
+    {
+        "label": "test_view",
+        "kind": 2,
+        "importPath": "events.views",
+        "description": "events.views",
+        "peekOfCode": "def test_view(request):\n    return render(request, 'events/test.html')\n# Home view - show latest 6 events\ndef home_view(request):\n    events = Event.objects.all()[:6]\n    return render(request, 'events/home.html', {'events': events})\n# All events view (requires login)\n@login_required\ndef all_event_view(request):\n    events = Event.objects.all()",
         "detail": "events.views",
         "documentation": {}
     },
@@ -673,7 +766,7 @@
         "kind": 2,
         "importPath": "events.views",
         "description": "events.views",
-        "peekOfCode": "def home_view(request):\n    events = Event.objects.all()[:6]\n    context = {\n        'events': events,\n    }\n    return render(request, 'events/home.html', context)\n#all_event\n@login_required\ndef all_event_view(request):\n    events = Event.objects.all()",
+        "peekOfCode": "def home_view(request):\n    events = Event.objects.all()[:6]\n    return render(request, 'events/home.html', {'events': events})\n# All events view (requires login)\n@login_required\ndef all_event_view(request):\n    events = Event.objects.all()\n    return render(request, 'events/all_events.html', {'events': events})\n# Dashboard view (requires login)\n@login_required",
         "detail": "events.views",
         "documentation": {}
     },
@@ -682,16 +775,7 @@
         "kind": 2,
         "importPath": "events.views",
         "description": "events.views",
-        "peekOfCode": "def all_event_view(request):\n    events = Event.objects.all()\n    return render(request, 'events/all_events.html', {'events': events})\ndef signup_view(request):\n    if request.method == 'POST':\n        form = UserCreationForm(request.POST)\n        if form.is_valid():\n            form.save()\n            return redirect('login')\n    else:",
-        "detail": "events.views",
-        "documentation": {}
-    },
-    {
-        "label": "signup_view",
-        "kind": 2,
-        "importPath": "events.views",
-        "description": "events.views",
-        "peekOfCode": "def signup_view(request):\n    if request.method == 'POST':\n        form = UserCreationForm(request.POST)\n        if form.is_valid():\n            form.save()\n            return redirect('login')\n    else:\n        form = UserCreationForm()\n    return render(request, 'users/sign_up.html', {'form': form})\n#dashboard",
+        "peekOfCode": "def all_event_view(request):\n    events = Event.objects.all()\n    return render(request, 'events/all_events.html', {'events': events})\n# Dashboard view (requires login)\n@login_required\ndef dashboard_view(request):\n    events = Event.objects.filter(organizer=request.user)\n    return render(request, 'dashboard/dashboard.html', {'events': events})\n# Event detail view by primary key\ndef event_detail(request, pk):",
         "detail": "events.views",
         "documentation": {}
     },
@@ -700,25 +784,7 @@
         "kind": 2,
         "importPath": "events.views",
         "description": "events.views",
-        "peekOfCode": "def dashboard_view(request):\n    return render(request, 'dashboard/dashboard.html')\ndef all_event_view(request):\n    events = Event.objects.all()\n    return render(request, 'events/all_events.html', {'events': events})\nclass EventDetailView(DetailView):\n    model = Event\n    template_name = 'events/event_detail.html'\n    context_object_name = 'event'\ndef event_list(request):",
-        "detail": "events.views",
-        "documentation": {}
-    },
-    {
-        "label": "all_event_view",
-        "kind": 2,
-        "importPath": "events.views",
-        "description": "events.views",
-        "peekOfCode": "def all_event_view(request):\n    events = Event.objects.all()\n    return render(request, 'events/all_events.html', {'events': events})\nclass EventDetailView(DetailView):\n    model = Event\n    template_name = 'events/event_detail.html'\n    context_object_name = 'event'\ndef event_list(request):\n    events = Event.objects.select_related('category').prefetch_related('participants').all()\n    return render(request, 'events/event_list.html', {'events': events})",
-        "detail": "events.views",
-        "documentation": {}
-    },
-    {
-        "label": "event_list",
-        "kind": 2,
-        "importPath": "events.views",
-        "description": "events.views",
-        "peekOfCode": "def event_list(request):\n    events = Event.objects.select_related('category').prefetch_related('participants').all()\n    return render(request, 'events/event_list.html', {'events': events})\ndef event_detail(request, pk):\n    event = get_object_or_404(Event, pk=pk)\n    return render(request, 'events/event_detail.html', {'event': event})",
+        "peekOfCode": "def dashboard_view(request):\n    events = Event.objects.filter(organizer=request.user)\n    return render(request, 'dashboard/dashboard.html', {'events': events})\n# Event detail view by primary key\ndef event_detail(request, pk):\n    event = get_object_or_404(Event, pk=pk)\n    return render(request, 'events/event_detail.html', {'event': event})\n# Alternative class-based detail view (optional)\nclass EventDetailView(DetailView):\n    model = Event",
         "detail": "events.views",
         "documentation": {}
     },
@@ -727,7 +793,25 @@
         "kind": 2,
         "importPath": "events.views",
         "description": "events.views",
-        "peekOfCode": "def event_detail(request, pk):\n    event = get_object_or_404(Event, pk=pk)\n    return render(request, 'events/event_detail.html', {'event': event})",
+        "peekOfCode": "def event_detail(request, pk):\n    event = get_object_or_404(Event, pk=pk)\n    return render(request, 'events/event_detail.html', {'event': event})\n# Alternative class-based detail view (optional)\nclass EventDetailView(DetailView):\n    model = Event\n    template_name = 'events/event_detail.html'\n    context_object_name = 'event'\n# Event list view with related objects prefetched\ndef event_list(request):",
+        "detail": "events.views",
+        "documentation": {}
+    },
+    {
+        "label": "event_list",
+        "kind": 2,
+        "importPath": "events.views",
+        "description": "events.views",
+        "peekOfCode": "def event_list(request):\n    events = Event.objects.select_related('category').prefetch_related('participants').all()\n    return render(request, 'events/event_list.html', {'events': events})\n# Organizer-only event creation view\n@organizer_required\ndef create_event(request):\n    categories = Category.objects.all()\n    if request.method == 'POST':\n        title = request.POST.get('title')\n        description = request.POST.get('description')",
+        "detail": "events.views",
+        "documentation": {}
+    },
+    {
+        "label": "create_event",
+        "kind": 2,
+        "importPath": "events.views",
+        "description": "events.views",
+        "peekOfCode": "def create_event(request):\n    categories = Category.objects.all()\n    if request.method == 'POST':\n        title = request.POST.get('title')\n        description = request.POST.get('description')\n        date = request.POST.get('date')\n        location = request.POST.get('location')\n        category_id = request.POST.get('category')\n        Event.objects.create(\n            title=title,",
         "detail": "events.views",
         "documentation": {}
     },
@@ -754,7 +838,7 @@
         "kind": 5,
         "importPath": "event_management.settings",
         "description": "event_management.settings",
-        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/5.2/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-@^ua6n74!_&6@gr^m928a@veba7x$xut6rl-oiyp6h=)1)w--f'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/5.2/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = config('SECRET_KEY')\nDEBUG = config('DEBUG', default=False, cast=bool)\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = ['*']\nCSRF_TRUSTED_ORIGINS = ['https://*.onrender.com', 'http://127.0.0.1:8000']",
         "detail": "event_management.settings",
         "documentation": {}
     },
@@ -763,7 +847,7 @@
         "kind": 5,
         "importPath": "event_management.settings",
         "description": "event_management.settings",
-        "peekOfCode": "SECRET_KEY = 'django-insecure-@^ua6n74!_&6@gr^m928a@veba7x$xut6rl-oiyp6h=)1)w--f'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',",
+        "peekOfCode": "SECRET_KEY = config('SECRET_KEY')\nDEBUG = config('DEBUG', default=False, cast=bool)\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = ['*']\nCSRF_TRUSTED_ORIGINS = ['https://*.onrender.com', 'http://127.0.0.1:8000']\n# DEBUG=True\n# SECRET_KEY=your-django-secret-key\n# ALLOWED_HOSTS=127.0.0.1,localhost\n# Application definition",
         "detail": "event_management.settings",
         "documentation": {}
     },
@@ -772,7 +856,16 @@
         "kind": 5,
         "importPath": "event_management.settings",
         "description": "event_management.settings",
-        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',",
+        "peekOfCode": "DEBUG = config('DEBUG', default=False, cast=bool)\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = ['*']\nCSRF_TRUSTED_ORIGINS = ['https://*.onrender.com', 'http://127.0.0.1:8000']\n# DEBUG=True\n# SECRET_KEY=your-django-secret-key\n# ALLOWED_HOSTS=127.0.0.1,localhost\n# Application definition\nINSTALLED_APPS = [",
+        "detail": "event_management.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEBUG",
+        "kind": 5,
+        "importPath": "event_management.settings",
+        "description": "event_management.settings",
+        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = ['*']\nCSRF_TRUSTED_ORIGINS = ['https://*.onrender.com', 'http://127.0.0.1:8000']\n# DEBUG=True\n# SECRET_KEY=your-django-secret-key\n# ALLOWED_HOSTS=127.0.0.1,localhost\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',",
         "detail": "event_management.settings",
         "documentation": {}
     },
@@ -781,7 +874,16 @@
         "kind": 5,
         "importPath": "event_management.settings",
         "description": "event_management.settings",
-        "peekOfCode": "ALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'events',",
+        "peekOfCode": "ALLOWED_HOSTS = ['*']\nCSRF_TRUSTED_ORIGINS = ['https://*.onrender.com', 'http://127.0.0.1:8000']\n# DEBUG=True\n# SECRET_KEY=your-django-secret-key\n# ALLOWED_HOSTS=127.0.0.1,localhost\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',",
+        "detail": "event_management.settings",
+        "documentation": {}
+    },
+    {
+        "label": "CSRF_TRUSTED_ORIGINS",
+        "kind": 5,
+        "importPath": "event_management.settings",
+        "description": "event_management.settings",
+        "peekOfCode": "CSRF_TRUSTED_ORIGINS = ['https://*.onrender.com', 'http://127.0.0.1:8000']\n# DEBUG=True\n# SECRET_KEY=your-django-secret-key\n# ALLOWED_HOSTS=127.0.0.1,localhost\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',",
         "detail": "event_management.settings",
         "documentation": {}
     },
@@ -799,7 +901,7 @@
         "kind": 5,
         "importPath": "event_management.settings",
         "description": "event_management.settings",
-        "peekOfCode": "AUTH_USER_MODEL = 'users.CustomUser'  \nSITE_ID = 1\nLOGIN_REDIRECT_URL = '/'\nLOGOUT_REDIRECT_URL = '/sign-in/'\nTAILWIND_APP_NAME = 'theme'\nMEDIA_URL = '/media/'\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')\nLOGIN_URL = '/users/login/'   \nMIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',",
+        "peekOfCode": "AUTH_USER_MODEL = 'users.CustomUser'  \nSITE_ID = 1\nLOGIN_REDIRECT_URL = '/'\nLOGOUT_REDIRECT_URL = '/sign-in/'\nTAILWIND_APP_NAME = 'theme'\nMEDIA_URL = '/media/'\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')\nLOGIN_URL = 'login'   \nMIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',",
         "detail": "event_management.settings",
         "documentation": {}
     },
@@ -808,7 +910,7 @@
         "kind": 5,
         "importPath": "event_management.settings",
         "description": "event_management.settings",
-        "peekOfCode": "SITE_ID = 1\nLOGIN_REDIRECT_URL = '/'\nLOGOUT_REDIRECT_URL = '/sign-in/'\nTAILWIND_APP_NAME = 'theme'\nMEDIA_URL = '/media/'\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')\nLOGIN_URL = '/users/login/'   \nMIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',",
+        "peekOfCode": "SITE_ID = 1\nLOGIN_REDIRECT_URL = '/'\nLOGOUT_REDIRECT_URL = '/sign-in/'\nTAILWIND_APP_NAME = 'theme'\nMEDIA_URL = '/media/'\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')\nLOGIN_URL = 'login'   \nMIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',",
         "detail": "event_management.settings",
         "documentation": {}
     },
@@ -817,7 +919,7 @@
         "kind": 5,
         "importPath": "event_management.settings",
         "description": "event_management.settings",
-        "peekOfCode": "LOGIN_REDIRECT_URL = '/'\nLOGOUT_REDIRECT_URL = '/sign-in/'\nTAILWIND_APP_NAME = 'theme'\nMEDIA_URL = '/media/'\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')\nLOGIN_URL = '/users/login/'   \nMIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',",
+        "peekOfCode": "LOGIN_REDIRECT_URL = '/'\nLOGOUT_REDIRECT_URL = '/sign-in/'\nTAILWIND_APP_NAME = 'theme'\nMEDIA_URL = '/media/'\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')\nLOGIN_URL = 'login'   \nMIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',",
         "detail": "event_management.settings",
         "documentation": {}
     },
@@ -826,7 +928,7 @@
         "kind": 5,
         "importPath": "event_management.settings",
         "description": "event_management.settings",
-        "peekOfCode": "LOGOUT_REDIRECT_URL = '/sign-in/'\nTAILWIND_APP_NAME = 'theme'\nMEDIA_URL = '/media/'\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')\nLOGIN_URL = '/users/login/'   \nMIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',",
+        "peekOfCode": "LOGOUT_REDIRECT_URL = '/sign-in/'\nTAILWIND_APP_NAME = 'theme'\nMEDIA_URL = '/media/'\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')\nLOGIN_URL = 'login'   \nMIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',",
         "detail": "event_management.settings",
         "documentation": {}
     },
@@ -835,7 +937,7 @@
         "kind": 5,
         "importPath": "event_management.settings",
         "description": "event_management.settings",
-        "peekOfCode": "TAILWIND_APP_NAME = 'theme'\nMEDIA_URL = '/media/'\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')\nLOGIN_URL = '/users/login/'   \nMIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',",
+        "peekOfCode": "TAILWIND_APP_NAME = 'theme'\nMEDIA_URL = '/media/'\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')\nLOGIN_URL = 'login'   \nMIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',",
         "detail": "event_management.settings",
         "documentation": {}
     },
@@ -844,7 +946,7 @@
         "kind": 5,
         "importPath": "event_management.settings",
         "description": "event_management.settings",
-        "peekOfCode": "MEDIA_URL = '/media/'\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')\nLOGIN_URL = '/users/login/'   \nMIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',",
+        "peekOfCode": "MEDIA_URL = '/media/'\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')\nLOGIN_URL = 'login'   \nMIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',",
         "detail": "event_management.settings",
         "documentation": {}
     },
@@ -853,7 +955,7 @@
         "kind": 5,
         "importPath": "event_management.settings",
         "description": "event_management.settings",
-        "peekOfCode": "MEDIA_ROOT = os.path.join(BASE_DIR, 'media')\nLOGIN_URL = '/users/login/'   \nMIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',",
+        "peekOfCode": "MEDIA_ROOT = os.path.join(BASE_DIR, 'media')\nLOGIN_URL = 'login'   \nMIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',",
         "detail": "event_management.settings",
         "documentation": {}
     },
@@ -862,7 +964,7 @@
         "kind": 5,
         "importPath": "event_management.settings",
         "description": "event_management.settings",
-        "peekOfCode": "LOGIN_URL = '/users/login/'   \nMIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n]",
+        "peekOfCode": "LOGIN_URL = 'login'   \nMIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n]",
         "detail": "event_management.settings",
         "documentation": {}
     },
@@ -907,7 +1009,61 @@
         "kind": 5,
         "importPath": "event_management.settings",
         "description": "event_management.settings",
-        "peekOfCode": "DATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.postgresql',\n        'NAME': 'event_management',  \n        'USER': 'postgres',\n        'PASSWORD': '#postgre1234',\n        'HOST': 'localhost',\n        'PORT': '5432',\n    }\n}",
+        "peekOfCode": "DATABASES = {\n    'default': dj_database_url.config(\n        default='postgresql://event_manager_db_0947_user:T91TVjloZaG4Ksmv6vLSlaIhKS3sUSe0@dpg-d1uk3ere5dus73dq9efg-a.oregon-postgres.render.com/event_manager_db_0947',\n        conn_max_age=600\n    )\n}\n# DATABASES = {\n#     'default': {\n#         'ENGINE': 'django.db.backends.postgresql',\n#         'NAME': config('event_management'),  ",
+        "detail": "event_management.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_BACKEND",
+        "kind": 5,
+        "importPath": "event_management.settings",
+        "description": "event_management.settings",
+        "peekOfCode": "EMAIL_BACKEND = config('EMAIL_BACKEND')\nEMAIL_HOST = config('EMAIL_HOST')\nEMAIL_PORT = config('EMAIL_PORT', cast=int)\nEMAIL_USE_TLS = config('EMAIL_USE_TLS', cast=bool)\nEMAIL_HOST_USER = config('EMAIL_HOST_USER')\nEMAIL_HOST_PASSWORD = config('EMAIL_HOST_PASSWORD')\n# Password validation\n# https://docs.djangoproject.com/en/5.2/ref/settings/#auth-password-validators\nAUTH_PASSWORD_VALIDATORS = [\n    {",
+        "detail": "event_management.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_HOST",
+        "kind": 5,
+        "importPath": "event_management.settings",
+        "description": "event_management.settings",
+        "peekOfCode": "EMAIL_HOST = config('EMAIL_HOST')\nEMAIL_PORT = config('EMAIL_PORT', cast=int)\nEMAIL_USE_TLS = config('EMAIL_USE_TLS', cast=bool)\nEMAIL_HOST_USER = config('EMAIL_HOST_USER')\nEMAIL_HOST_PASSWORD = config('EMAIL_HOST_PASSWORD')\n# Password validation\n# https://docs.djangoproject.com/en/5.2/ref/settings/#auth-password-validators\nAUTH_PASSWORD_VALIDATORS = [\n    {\n        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',",
+        "detail": "event_management.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_PORT",
+        "kind": 5,
+        "importPath": "event_management.settings",
+        "description": "event_management.settings",
+        "peekOfCode": "EMAIL_PORT = config('EMAIL_PORT', cast=int)\nEMAIL_USE_TLS = config('EMAIL_USE_TLS', cast=bool)\nEMAIL_HOST_USER = config('EMAIL_HOST_USER')\nEMAIL_HOST_PASSWORD = config('EMAIL_HOST_PASSWORD')\n# Password validation\n# https://docs.djangoproject.com/en/5.2/ref/settings/#auth-password-validators\nAUTH_PASSWORD_VALIDATORS = [\n    {\n        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',\n    },",
+        "detail": "event_management.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_USE_TLS",
+        "kind": 5,
+        "importPath": "event_management.settings",
+        "description": "event_management.settings",
+        "peekOfCode": "EMAIL_USE_TLS = config('EMAIL_USE_TLS', cast=bool)\nEMAIL_HOST_USER = config('EMAIL_HOST_USER')\nEMAIL_HOST_PASSWORD = config('EMAIL_HOST_PASSWORD')\n# Password validation\n# https://docs.djangoproject.com/en/5.2/ref/settings/#auth-password-validators\nAUTH_PASSWORD_VALIDATORS = [\n    {\n        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',\n    },\n    {",
+        "detail": "event_management.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_HOST_USER",
+        "kind": 5,
+        "importPath": "event_management.settings",
+        "description": "event_management.settings",
+        "peekOfCode": "EMAIL_HOST_USER = config('EMAIL_HOST_USER')\nEMAIL_HOST_PASSWORD = config('EMAIL_HOST_PASSWORD')\n# Password validation\n# https://docs.djangoproject.com/en/5.2/ref/settings/#auth-password-validators\nAUTH_PASSWORD_VALIDATORS = [\n    {\n        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',",
+        "detail": "event_management.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_HOST_PASSWORD",
+        "kind": 5,
+        "importPath": "event_management.settings",
+        "description": "event_management.settings",
+        "peekOfCode": "EMAIL_HOST_PASSWORD = config('EMAIL_HOST_PASSWORD')\n# Password validation\n# https://docs.djangoproject.com/en/5.2/ref/settings/#auth-password-validators\nAUTH_PASSWORD_VALIDATORS = [\n    {\n        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',\n    },",
         "detail": "event_management.settings",
         "documentation": {}
     },
@@ -961,7 +1117,7 @@
         "kind": 5,
         "importPath": "event_management.settings",
         "description": "event_management.settings",
-        "peekOfCode": "STATIC_URL = 'static/'\nSTATICFILES_DIRS = [\n    BASE_DIR / \"static\",\n]\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nNPM_BIN_PATH = r\"C:/Program Files/nodejs/npm.cmd\"\n# Username : shamima\n# Email address: shamimasham7@gmail.com",
+        "peekOfCode": "STATIC_URL = 'static/'\nSTATICFILES_DIRS = [\n    BASE_DIR / \"static\",\n]\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nNPM_BIN_PATH = r\"C:/Program Files/nodejs/npm.cmd\"\n#Username: admin\n# Email address: admin@gmail.com",
         "detail": "event_management.settings",
         "documentation": {}
     },
@@ -970,7 +1126,7 @@
         "kind": 5,
         "importPath": "event_management.settings",
         "description": "event_management.settings",
-        "peekOfCode": "STATICFILES_DIRS = [\n    BASE_DIR / \"static\",\n]\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nNPM_BIN_PATH = r\"C:/Program Files/nodejs/npm.cmd\"\n# Username : shamima\n# Email address: shamimasham7@gmail.com\n# Password:admin123",
+        "peekOfCode": "STATICFILES_DIRS = [\n    BASE_DIR / \"static\",\n]\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nNPM_BIN_PATH = r\"C:/Program Files/nodejs/npm.cmd\"\n#Username: admin\n# Email address: admin@gmail.com\n# Password:",
         "detail": "event_management.settings",
         "documentation": {}
     },
@@ -979,7 +1135,7 @@
         "kind": 5,
         "importPath": "event_management.settings",
         "description": "event_management.settings",
-        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nNPM_BIN_PATH = r\"C:/Program Files/nodejs/npm.cmd\"\n# Username : shamima\n# Email address: shamimasham7@gmail.com\n# Password:admin123\n# Password (again):admin123",
+        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nNPM_BIN_PATH = r\"C:/Program Files/nodejs/npm.cmd\"\n#Username: admin\n# Email address: admin@gmail.com\n# Password:\n# Password (again):",
         "detail": "event_management.settings",
         "documentation": {}
     },
@@ -988,7 +1144,7 @@
         "kind": 5,
         "importPath": "event_management.settings",
         "description": "event_management.settings",
-        "peekOfCode": "NPM_BIN_PATH = r\"C:/Program Files/nodejs/npm.cmd\"\n# Username : shamima\n# Email address: shamimasham7@gmail.com\n# Password:admin123\n# Password (again):admin123",
+        "peekOfCode": "NPM_BIN_PATH = r\"C:/Program Files/nodejs/npm.cmd\"\n#Username: admin\n# Email address: admin@gmail.com\n# Password:\n# Password (again):",
         "detail": "event_management.settings",
         "documentation": {}
     },
@@ -1038,21 +1194,12 @@
         "documentation": {}
     },
     {
-        "label": "welcome_email",
-        "kind": 2,
-        "importPath": "users.templates.users.signals",
-        "description": "users.templates.users.signals",
-        "peekOfCode": "def welcome_email(sender, instance, created, **kwargs):\n    if created:\n        send_mail(\n            'Welcome to Event Management',\n            'Hello {}, welcome!'.format(instance.username),\n            'admin@ems.com',\n            [instance.email],\n            fail_silently=True,\n        )",
-        "detail": "users.templates.users.signals",
-        "documentation": {}
-    },
-    {
-        "label": "organizer_required",
-        "kind": 2,
-        "importPath": "users.templates.users.utils",
-        "description": "users.templates.users.utils",
-        "peekOfCode": "def organizer_required(view_func):\n    decorator = user_passes_test(lambda u: u.is_authenticated and u.role == 'organizer')\n    return decorator(view_func)",
-        "detail": "users.templates.users.utils",
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "users.migrations.0001_initial",
+        "description": "users.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n        ('auth', '0012_alter_user_first_name_max_length'),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='CustomUser',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),",
+        "detail": "users.migrations.0001_initial",
         "documentation": {}
     },
     {
@@ -1060,16 +1207,7 @@
         "kind": 6,
         "importPath": "users.apps",
         "description": "users.apps",
-        "peekOfCode": "class UsersConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'users'\ndef ready(self):\n    import users.signals",
-        "detail": "users.apps",
-        "documentation": {}
-    },
-    {
-        "label": "ready",
-        "kind": 2,
-        "importPath": "users.apps",
-        "description": "users.apps",
-        "peekOfCode": "def ready(self):\n    import users.signals",
+        "peekOfCode": "class UsersConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'users'\n    def ready(self):\n        import users.signals",
         "detail": "users.apps",
         "documentation": {}
     },
@@ -1078,16 +1216,7 @@
         "kind": 6,
         "importPath": "users.forms",
         "description": "users.forms",
-        "peekOfCode": "class CustomUserCreationForm(UserCreationForm):\n    class Meta:\n        model = CustomUser\n        fields = ('username', 'email', 'role')\nclass SignUpForm(forms.ModelForm):\n    password = forms.CharField(widget=forms.PasswordInput)\n    confirm_password = forms.CharField(widget=forms.PasswordInput)\n    class Meta:\n        model = User\n        fields = ['username', 'email', 'password']",
-        "detail": "users.forms",
-        "documentation": {}
-    },
-    {
-        "label": "SignUpForm",
-        "kind": 6,
-        "importPath": "users.forms",
-        "description": "users.forms",
-        "peekOfCode": "class SignUpForm(forms.ModelForm):\n    password = forms.CharField(widget=forms.PasswordInput)\n    confirm_password = forms.CharField(widget=forms.PasswordInput)\n    class Meta:\n        model = User\n        fields = ['username', 'email', 'password']\n    def clean(self):\n        cleaned_data = super().clean()\n        password = cleaned_data.get(\"password\")\n        confirm_password = cleaned_data.get(\"confirm_password\")",
+        "peekOfCode": "class CustomUserCreationForm(UserCreationForm):\n    class Meta:\n        model = User\n        fields = ('username', 'email', 'role')  \n        widgets = {\n            'username': forms.TextInput(attrs={\n                'class': 'input input-bordered w-full',\n                'placeholder': 'Username',\n                'required': True,\n            }),",
         "detail": "users.forms",
         "documentation": {}
     },
@@ -1096,7 +1225,16 @@
         "kind": 6,
         "importPath": "users.forms",
         "description": "users.forms",
-        "peekOfCode": "class LoginForm(forms.Form):\n    email = forms.EmailField(widget=forms.EmailInput(attrs={\n        'class': 'input input-bordered w-full',\n        'placeholder': 'Email',\n        'required': True,\n    }))\n    password = forms.CharField(widget=forms.PasswordInput(attrs={\n        'class': 'input input-bordered w-full',\n        'placeholder': 'Password',\n        'required': True,",
+        "peekOfCode": "class LoginForm(forms.Form):\n    email = forms.EmailField(widget=forms.EmailInput(attrs={\n        'class': 'input input-bordered w-full',\n        'placeholder': 'Email'\n    }))\n    password = forms.CharField(widget=forms.PasswordInput(attrs={\n        'class': 'input input-bordered w-full',\n        'placeholder': 'Password'\n    }))",
+        "detail": "users.forms",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "kind": 5,
+        "importPath": "users.forms",
+        "description": "users.forms",
+        "peekOfCode": "User = get_user_model()  \nclass CustomUserCreationForm(UserCreationForm):\n    class Meta:\n        model = User\n        fields = ('username', 'email', 'role')  \n        widgets = {\n            'username': forms.TextInput(attrs={\n                'class': 'input input-bordered w-full',\n                'placeholder': 'Username',\n                'required': True,",
         "detail": "users.forms",
         "documentation": {}
     },
@@ -1105,8 +1243,17 @@
         "kind": 6,
         "importPath": "users.models",
         "description": "users.models",
-        "peekOfCode": "class CustomUser(AbstractUser):\n    ROLE_CHOICES = (\n        ('organizer', 'Organizer'),\n        ('attendee', 'Attendee'),\n    )\n    role = models.CharField(max_length=20, choices=ROLE_CHOICES, default='attendee')",
+        "peekOfCode": "class CustomUser(AbstractUser):\n    ROLE_CHOICES = (\n        ('organizer', 'Organizer'),\n        ('attendee', 'Attendee'),\n    )\n    pass\n    role = models.CharField(max_length=20, choices=ROLE_CHOICES, default='attendee')",
         "detail": "users.models",
+        "documentation": {}
+    },
+    {
+        "label": "send_welcome_email",
+        "kind": 2,
+        "importPath": "users.signals",
+        "description": "users.signals",
+        "peekOfCode": "def send_welcome_email(sender, instance, created, **kwargs):\n    if created:\n        send_mail(\n            subject=\"Welcome to EMS\",\n            message=f\"Hi {instance.username}, welcome to our event platform!\",\n            from_email=\"admin@ems.com\",\n            recipient_list=[instance.email],\n            fail_silently=True,\n        )",
+        "detail": "users.signals",
         "documentation": {}
     },
     {
@@ -1128,11 +1275,29 @@
         "documentation": {}
     },
     {
+        "label": "organizer_required",
+        "kind": 2,
+        "importPath": "users.utils",
+        "description": "users.utils",
+        "peekOfCode": "def organizer_required(view_func):\n    decorator = user_passes_test(lambda u: u.is_authenticated and u.role == 'organizer')\n    return decorator(view_func)",
+        "detail": "users.utils",
+        "documentation": {}
+    },
+    {
+        "label": "activate",
+        "kind": 2,
+        "importPath": "users.views",
+        "description": "users.views",
+        "peekOfCode": "def activate(request, uidb64, token):\n    try:\n        uid = force_str(urlsafe_base64_decode(uidb64))\n        user = User.objects.get(pk=uid)\n    except (TypeError, ValueError, OverflowError, User.DoesNotExist):\n        user = None\n    if user and default_token_generator.check_token(user, token):\n        user.is_active = True\n        user.save()\n        messages.success(request, \"Your account has been activated. Please log in.\")",
+        "detail": "users.views",
+        "documentation": {}
+    },
+    {
         "label": "signup_view",
         "kind": 2,
         "importPath": "users.views",
         "description": "users.views",
-        "peekOfCode": "def signup_view(request):\n    if request.method == 'POST':\n        form = CustomUserCreationForm(request.POST)\n        if form.is_valid():\n            user = form.save(commit=False)\n            user.is_active = False  # Require activation\n            user.save()\n            # Send activation email\n            current_site = get_current_site(request)\n            subject = 'Activate your account'",
+        "peekOfCode": "def signup_view(request):\n    if request.method == 'POST':\n        form = CustomUserCreationForm(request.POST)\n        if form.is_valid():\n            user = form.save(commit=False)\n            user.is_active = False\n            user.save()\n            current_site = get_current_site(request)\n            subject = 'Activate your account'\n            message = render_to_string('users/activation_email.html', {",
         "detail": "users.views",
         "documentation": {}
     },
@@ -1151,6 +1316,15 @@
         "importPath": "users.views",
         "description": "users.views",
         "peekOfCode": "def logout_view(request):\n    logout(request)\n    messages.info(request, \"You have been logged out.\")\n    return redirect('login')",
+        "detail": "users.views",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "kind": 5,
+        "importPath": "users.views",
+        "description": "users.views",
+        "peekOfCode": "User = get_user_model()  \n# Activation View\ndef activate(request, uidb64, token):\n    try:\n        uid = force_str(urlsafe_base64_decode(uidb64))\n        user = User.objects.get(pk=uid)\n    except (TypeError, ValueError, OverflowError, User.DoesNotExist):\n        user = None\n    if user and default_token_generator.check_token(user, token):\n        user.is_active = True",
         "detail": "users.views",
         "documentation": {}
     },

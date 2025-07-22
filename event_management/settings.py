@@ -12,6 +12,7 @@ https://docs.djangoproject.com/en/5.2/ref/settings/
 import os
 from pathlib import Path
 from decouple import config , Csv
+import dj_database_url
 
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -23,6 +24,8 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = config('SECRET_KEY')
+DEBUG = config('DEBUG', default=False, cast=bool)
+
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -30,6 +33,9 @@ DEBUG = True
 ALLOWED_HOSTS = ['*']
 CSRF_TRUSTED_ORIGINS = ['https://*.onrender.com', 'http://127.0.0.1:8000']
 
+# DEBUG=True
+# SECRET_KEY=your-django-secret-key
+# ALLOWED_HOSTS=127.0.0.1,localhost
 
 # Application definition
 
@@ -104,16 +110,24 @@ WSGI_APPLICATION = 'event_management.wsgi.application'
 #     }
 # }
 
+
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': config('event_management'),  
-        'USER': config('postgres'),
-        'PASSWORD': config('#postgre1234'),
-        'HOST': config('localhost'),
-        'PORT': config('5432'),
-    }
+    'default': dj_database_url.config(
+        default='postgresql://event_manager_db_0947_user:T91TVjloZaG4Ksmv6vLSlaIhKS3sUSe0@dpg-d1uk3ere5dus73dq9efg-a.oregon-postgres.render.com/event_manager_db_0947',
+        conn_max_age=600
+    )
 }
+
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql',
+#         'NAME': config('event_management'),  
+#         'USER': config('postgres'),
+#         'PASSWORD': config('#postgre1234'),
+#         'HOST': config('localhost'),
+#         'PORT': config('5432'),
+#     }
+# }
 
 # Email
 EMAIL_BACKEND = config('EMAIL_BACKEND')
