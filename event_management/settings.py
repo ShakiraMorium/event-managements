@@ -31,11 +31,10 @@ DEBUG = config('DEBUG', default=False, cast=bool)
 DEBUG = True
 
 ALLOWED_HOSTS = ['*']
+
 CSRF_TRUSTED_ORIGINS = ['https://*.onrender.com', 'http://127.0.0.1:8000']
 
-# DEBUG=True
-# SECRET_KEY=your-django-secret-key
-# ALLOWED_HOSTS=127.0.0.1,localhost
+
 
 # Application definition
 
